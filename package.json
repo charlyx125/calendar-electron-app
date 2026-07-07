@@ -4,6 +4,7 @@
   "description": "This is a cute calendar app inspired by https://github.com/nasha-wanich/little-calendar",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/charlyx125/calendar-electron-app/issues"
   },
-  "homepage": "https://github.com/charlyx125/calendar-electron-app#readme"
+  "homepage": "https://github.com/charlyx125/calendar-electron-app#readme",
+  "devDependencies": {
+    "electron": "^43.0.0"
+  }
 }
