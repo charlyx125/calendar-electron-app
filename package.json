@@ -1,0 +1,19 @@
+{
+  "name": "calendar-electron-app",
+  "version": "1.0.0",
+  "description": "This is a cute calendar app inspired by https://github.com/nasha-wanich/little-calendar",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlyx125/calendar-electron-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlyx125/calendar-electron-app/issues"
+  },
+  "homepage": "https://github.com/charlyx125/calendar-electron-app#readme"
+}
