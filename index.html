@@ -3,6 +3,12 @@
     <p>Hello World electron app</p>
 </head>
 <body>
-    <p> Hello world can you see this body message?</p>
+   <h2 id="current_date"></h2>
+
+    <script>
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById("current_date").innerHTML =
+        new Date().toLocaleDateString('en-US', options);
+    </script>
 </body>
 </html>
