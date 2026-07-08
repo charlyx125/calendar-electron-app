@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <head>
-    <p>Hello World electron app</p>
 </head>
 <body>
    <h2 id="current_date"></h2>
@@ -9,6 +8,15 @@
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         document.getElementById("current_date").innerHTML =
         new Date().toLocaleDateString('en-US', options);
+    </script>
+
+    <h3 id="current_time"></h3>
+    <script>
+        function updateTime() {
+            document.getElementById("current_time").innerHTML = new Date().toLocaleTimeString('en-US');
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
     </script>
 </body>
 </html>
