@@ -1,0 +1,20 @@
+body {
+  background: linear-gradient(to bottom, #edabbe, #7c4ebb);
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Silkscreen", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Handjet", sans-serif;
+  transform: scaleY(1.5);
+}
+
+h3 {
+  transform: scaleY(1.5);
+}
