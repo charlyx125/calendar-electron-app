@@ -10,6 +10,12 @@ body {
   align-items: center;
 }
 
+#calendar_grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 12px;
+}
+
 h2 {
   font-family: "Handjet", sans-serif;
   transform: scaleY(1.5);
@@ -17,4 +23,8 @@ h2 {
 
 h3 {
   transform: scaleY(1.5);
+}
+
+.today {
+  color: black;
 }
